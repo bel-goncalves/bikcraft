@@ -22,14 +22,9 @@
 }
 
 .header-menu a{
-    color: var(--cor-0);
-    display: inline-block;
-    /*+ area de contato:*/
-    padding: 16px 0px;
-    font-size: 18px;
+    display: inline-block; 
+    padding: 16px 0px;/*+ area de contato:*/
     position: relative; /*elemento*/
-    font-family: "Poppins";
-    font-weight: 400;
 }
 
 .header-menu a::after{

@@ -10,15 +10,18 @@
     padding-bottom: 60px;
 }
 .bicicletas-imagem{
-    position: relative;
+    display: grid;
+}
+.bicicletas-imagem img{
+    grid-area: 1/1;
 }
 .bicicletas-imagem span{
+    grid-area: 1/1;
+    place-self: start end;
+    margin-top: 20px;
     background: var(--cor-13);
     display: inline-block;
     padding: 8px 16px 8px 8px;
-    position: absolute;
-    top: 20px;
-    right:0px;
     border-radius: 4px 0px 0px 4px;
 }
 .bicicletas-conteudo{
@@ -68,6 +71,9 @@
     }
     .bicicletas-bg{
         background: var(--cor-11);
+    }
+    .bicicletas-imagem{
+        justify-content: center;
     }
 }
 @media (max-width: 600px){

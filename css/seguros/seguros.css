@@ -1,5 +1,5 @@
 .seguros-bg{
-    background-color: var(--cor-11);
+    background: var(--cor-11) url(../../img/dec/bottom-left.svg) no-repeat bottom 20px left 20px;
 }
 .seguros {
     padding-top: 60px;
@@ -58,5 +58,8 @@
 @media (max-width:800px){
     .seguros{
         grid-template-columns: 1fr;
+    }
+    .seguros-bg{
+        background: var(--cor-11)
     }
 }
